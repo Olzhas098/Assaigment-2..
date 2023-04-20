@@ -1,0 +1,38 @@
+/* Размер слайдов */
+.carousel-item img {
+    width: 100%;
+    height: 750px;
+  }
+  
+  /* Стиль индикаторов карусели */
+  .carousel-indicators li {
+    background-color: #c4c4c4;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333333;
+  }
+  
+  /* Стиль кнопок управления каруселью */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 3%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none;
+    margin-left: -10px;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url('prev-icon.png');
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url('next-icon.png');
+  }
+  .card {
+    margin-bottom: 20px; /* Задаем отступ между карточками */
+  }
+  
